@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="wyman.game.UI.SFrame">
+  <grid id="27dc6" binding="aa" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="100" vgap="50">
+    <margin top="30" left="20" bottom="20" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="672" height="564"/>
+    </constraints>
+    <properties/>
+    <border type="none">
+      <font/>
+    </border>
+    <children>
+      <grid id="334db" binding="sure" custom-create="true" layout-manager="FlowLayout" hgap="30" vgap="30" flow-align="1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="5" use-parent-layout="false">
+            <minimum-size width="20" height="20"/>
+            <preferred-size width="50" height="50"/>
+            <maximum-size width="500" height="500"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-4449511"/>
+        </properties>
+        <border type="bevel-raised">
+          <font/>
+        </border>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
